@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://satir13.github.io/Satir13-electric-site-/sitemap.xml
