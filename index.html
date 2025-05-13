@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Проектирование электроснабжения квартир, домов, офисов, магазинов. 10+ лет опыта. Хижняков Александр Игоревич — инженер с профильным образованием.">
+    <meta name="keywords" content="проект электроснабжения, электрика, проектирование электрических систем, молниезащита, инженер, проект электроснабжения квартиры, проект электроснабжения загородного дома, проект электроснабжения салона, проект электроснабжения магазина, проект электроснабжения ресторана, проект электроснабжения кафе, проект электроснабжения офиса, проект электроснабжения офисных зданий, проект электроснабжения промышленных объектов, однолинейные схемы, расчет нагрузок, консультации по электроснабжению">
+    <title>Закажи и создай свою систему электроснабжения</title>
+    <style>
+        body {
+            font-family: "Roboto", sans-serif;
+            margin: 0;
+            padding: 0;
+            color: white;
+            background: url('background.jpg') no-repeat center center fixed;
+            background-size: cover;
+            text-align: justify;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+        nav {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            background: rgba(0, 0, 0, 0.3); /* Более прозрачный фон */
+            padding: 10px;
+            backdrop-filter: blur(10px);
+        }
+        nav.show {
+            display: flex;
+        }
+        nav a {
+            color: white !important;
+            text-decoration: none;
+            padding: 10px 15px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        nav a:hover {
+            background: #00509E;
+        }
+        .menu-toggle {
+            display: block;
+            font-size: 24px;
+            background-color: rgba(0, 0, 0, 0.5);
+            border: 2px solid rgba(255, 255, 255, 0.5);
+            color: white;
+            cursor: pointer;
+            width: 100%;
+            padding: 10px;
+        }
+        footer {
+            background: #001F3F;
+            text-align: center;
+            padding: 15px;
+            color: white;
+        }
+        main {
+            padding: 20px;
+        }
+        .faq, .about, .services {
+            margin-bottom: 20px;
+            background: rgba(0, 0, 0, 0.5);
+            padding: 15px;
+            border-radius: 8px;
+            border: 2px solid rgba(255, 255, 255, 0.5);
+        }
+        .faq-item {
+            cursor: pointer;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+            padding: 10px 0;
+        }
+        .faq-item p {
+            display: none;
+        }
+        .faq-item.active p {
+            display: block;
+        }
+        .about img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 3px solid #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Закажи и создай свою систему электроснабжения</h1>
+        <button class="menu-toggle">☰</button>
+    </header>
+
+    <nav>
+        <a href="#about">Обо мне</a>
+        <a href="#services">Услуги</a>
+        <!-- <a href="#portfolio">Портфолио</a> -->
+        <a href="#contacts">Контакты</a>
+        <a href="#faq">FAQ</a>
+    </nav>
+
+    <main>
+        <section id="about" class="about">
+            <h2>Обо мне</h2>
+            <img src="UklbnzCYCNc.jpg" alt="Фото Александра">
+            <p>Здравствуйте! Меня зовут Александр. 
+            Я профессионально занимаюсь проектированием систем электроснабжения, электроосвещения, молниезащиты и заземления в домах, квартирах, офисах, торговых помещениях, магазинах, на производствах, складах и др.</p>
+            <p>Образование – высшее, профильное, окончил Московский энергетический институт (Национальный исследовательский университет), г. Москва.
+            Специальность – электрооборудование и электрохозяйство организаций, учреждений и предприятий.
+            Проектированием систем электроснабжения занимаюсь свыше 10 лет.</p>
+        </section>
+
+        <section id="services" class="services">
+            <h2>Услуги</h2>
+            <ul>
+                <li>Проект электроснабжения квартиры</li>
+                <li>Проект электроснабжения загородного дома</li>
+                <li>Проект электроснабжения салона / магазина</li>
+                <li>Проект электроснабжения ресторана / кафе</li>
+                <li>Проект электроснабжения офиса и офисных зданий</li>
+                <li>Проект электроснабжения промышленных и гражданских объектов</li>
+                <li>Разработка однолинейных схем и расчет нагрузок</li>
+                <li>Оказание консультаций по части электроснабжения объекта</li>
+                <li>Авторский надзор</li>
+            </ul>
+        </section>
+
+        <section id="faq" class="faq">
+            <h2>Часто задаваемые вопросы</h2>
+            <div class="faq-item"><h3>Какие документы нужны для проекта электроснабжения?</h3><p>Для разработки проекта требуются исходные данные: планировка объекта, технические условия и требования заказчика.</p></div>
+            <div class="faq-item"><h3>Сколько времени занимает разработка проекта?</h3><p>Средний срок выполнения проекта составляет от 5 дней до 4 недель в зависимости от сложности.</p></div>
+            <div class="faq-item"><h3>Какова стоимость проектирования?</h3><p>Стоимость зависит от сложности проекта. Вы можете связаться со мной для уточнения информации.</p></div>
+            <div class="faq-item"><h3>Вы работаете с объектами в других регионах?</h3><p>Да, я работаю с заказчиками по всей России.</p></div>
+        </section>
+        <section id="contacts" class="services">
+            <h2>Контакты</h2>
+            <p><strong>ФИО:</strong> Хижняков Александр Игоревич</p>
+            <p><strong>Телефон:</strong> +7 (916) 078-49-10</p>
+            <p><strong>Email:</strong> <a href="mailto:createinspiration@yandex.ru" style="color: white;">createinspiration@yandex.ru</a></p>
+            <p><strong>WhatsApp:</strong> <a href="https://wa.me/79160784910" target="_blank" style="color: white;">Написать в WhatsApp</a></p>
+
+        <div style="margin-top: 15px;">
+            <a href="mailto:createinspiration@yandex.ru" style="padding: 10px 20px; margin-right: 10px; background-color: rgba(0,0,0,0.5); color: white; border: 1px solid white; border-radius: 5px; text-decoration: none;">Написать Email</a>
+            <a href="https://wa.me/79001234567" target="_blank" style="padding: 10px 20px; background-color: rgba(0,0,0,0.5); color: white; border: 1px solid white; border-radius: 5px; text-decoration: none;">WhatsApp</a>
+        </div>
+
+        <form style="margin-top: 20px; display: flex; flex-direction: column; gap: 10px;">
+            <input type="text" placeholder="Ваше имя" required style="padding: 10px; border-radius: 5px; border: none;">
+            <input type="email" placeholder="Ваш Email" required style="padding: 10px; border-radius: 5px; border: none;">
+            <textarea placeholder="Сообщение" required rows="4" style="padding: 10px; border-radius: 5px; border: none;"></textarea>
+            <button type="submit" style="padding: 10px 20px; background-color: rgba(0,0,0,0.5); color: white; border: 1px solid white; border-radius: 5px; cursor: pointer;">Отправить</button>
+        </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Александр. Все права защищены. <br> Email: createinspiration@yandex.ru</p>
+    </footer>
+
+    <script>
+        document.querySelectorAll('.faq-item h3').forEach(item => {
+            item.addEventListener('click', () => {
+                item.parentElement.classList.toggle('active');
+            });
+        });
+
+        document.querySelector('.menu-toggle').addEventListener('click', () => {
+            document.querySelector('nav').classList.toggle('show');
+        });
+    </script>
+</body>
+</html>
